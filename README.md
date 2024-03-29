@@ -1,6 +1,7 @@
 # [JSL06] Submission: CodeCuisine Menu Display System Challenge
 
 You will:
+
 1. Use the provided Starter Code Repository: https://github.com/CodeSpace-Academy/Module_6_StudentNo_Classcode_Group_Name-Surname_JSL06
 2. Code your solution.
 3. Commit changes to your GitHub repository.
@@ -24,13 +25,13 @@ In this coding challenge, you will build a simple menu display system for a fict
 
 2. **JavaScript Implementation**: Use the provided starter code in `index.js` as a foundation for your application. The starter code contains placeholders for key functions and comments to guide you through the implementation.
 
-    - `menu`: The `menu` object contains sample menu data, including categories and items. You can expand this menu with more items if needed.
+   - `menu`: The `menu` object contains sample menu data, including categories and items. You can expand this menu with more items if needed.
 
-    - `displayMenuItems(menu)`: This function should dynamically create and display menu items grouped by category. Iterate over the `menu` object and create HTML elements for each category and item. Attach event listeners to the menu items to handle adding items to the order.
+   - `displayMenuItems(menu)`: This function should dynamically create and display menu items grouped by category. Iterate over the `menu` object and create HTML elements for each category and item. Attach event listeners to the menu items to handle adding items to the order.
 
-    - `addToOrder(itemName)`: Implement this callback function to update the order summary when an item is added. You can use closures to maintain the state of the order. Calculate and update the total price accordingly.
+   - `addToOrder(itemName)`: Implement this callback function to update the order summary when an item is added. You can use closures to maintain the state of the order. Calculate and update the total price accordingly.
 
-    - `initMenuSystem(menu)`: Call the `displayMenuItems` function with the menu data and attach event listeners to menu items.
+   - `initMenuSystem(menu)`: Call the `displayMenuItems` function with the menu data and attach event listeners to menu items.
 
 3. **Testing**: Thoroughly test your application to ensure that it can correctly add items to the order and that the order total updates as expected.
 
